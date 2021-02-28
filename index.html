@@ -5,175 +5,211 @@
 <head>
   <meta charset="UTF-8">
   <title>air-asia</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header class="head">
+      <div class="container">
+        <a class="logo" href="/air-asia/index.html">
+          <img src="./img/logo.png" alt="Логотип" class="head__logo"></a>
+        <ul class="head__menu">
+          <li class="head__list"><a href="/air-asia/index.html" target="_blank">Главная</a></li>
+          <li class="head__list"><a href="">Услуги</a></li>
+          <li class="head__list"><a href="">Отзывы</a></li>
+        </ul>
+        <div class="contacts">
+          <div class="head__telephone">
+            <a class="head__number" href="#">8 800 700 30 30</a>
+          </div>
+          <div class="head__graph">
+            <p class="head__base">График работы</p>
+            <!-- <p class="head__time">Пн-Вс: 09:00 - 20:00</p>
+            <p class="head__time">Обед: 14:00 - 14:30</p> -->
+          </div>
+        </div>
+
+
+      </div>
       <!-- Раздел 1(Шапка)-->
-      <a href="/air-asia/index.html">
-        <img src="" alt="Логотип" class="head__logo"></a>
-      <ul class="head__menu">
-        <li class="head__list"><a href="/air-asia/index.html" target="_blank">Главная</a></li>
-        <li class="head__list"><a href="">Услуги</a></li>
-        <li class="head__list"><a href="">Отзывы</a></li>
-      </ul>
-      <div class="head__graph">
-        <p class="head__base">График работы</p>
-        <p class="head__time">Пн-Вс: 09:00 - 20:00</p>
-        <p class="head__time">Обед: 14:00 - 14:30</p>
-      </div>
-      <div class="head__telephone">
-        <a class="head__number" href="#">8(800)700-30-30</a>
-      </div>
+
     </header>
     <div class="main">
       <!-- Раздел 2(Основной заголовок+описание туров)-->
-      <div class="main__body">
-        <h1 class="main__header">Авторские туры по Азии</h1>
-        <p class="main__signature">Открой для себя Азию</p>
-        <a href=""><button class="main__button">Подробнее</button></a>
-      </div>
-      <div class="main__sentence">
-        <h2 class="main__head">Горящие туры<img src="" alt="Картинка" class="main__icon"></h2>
-        <ul class="main__base">
-          <li class="main__form">
-            <img src="" alt="Тайланд" class="main__img">
-            <h3 class="main__subtitle">Тайланд</h3>
-            <img src="" alt="Календарь" class="main__img">
-            <span>7-12 ночей</span>
-            <img src="" alt="Завтрак" class="main__img">
-            <span>завтраки</span>
-            <p class="main__text">Таиланд расположен в Юго-Восточной Азии, на полуостровах Индокитай и
-              Малакка, с запада омывается Андаманским морем, с востока Сиамским заливом Южно-Китайского моря. Территория
-              Таиланда вытянута с севера на юг (расстояние от самой северной точки до самой южной точки — 1860 км).</p>
-            <a href=""><button class="main__button">Смотреть</button></a>
-          <li class="main__form">
-            <img src="" alt="Бали" class="main__img">
-            <h3 class="main__subtitle">Бали</h3>
-            <img src="" alt="Календарь" class="main__img">
-            <span>7-12 ночей</span>
-            <img src="" alt="Завтрак" class="main__img">
-            <span>завтраки</span>
-            <p class="main__text">Остров в Малайском архипелаге, в группе Малых Зондских островов, в
-              составе одноимённой провинции Индонезии. Омывается с юга Индийским океаном, с севера — морем Бали Тихого
-              океана. С запада отделён одноимённым проливом от острова Ява, с востока — Ломбокским проливом от острова
-              Ломбок..</p>
-            <a href=""><button class="main__button">Смотреть</button></a>
-          <li class="main__form">
-            <img src="" alt="Индонезия" class="main__img">
-            <h3 class="main__subtitle">Индонезия</h3>
-            <img src="" alt="Календарь" class="main__img">
-            <span>7-12 ночей</span>
-            <img src="" alt="Завтрак" class="main__img">
-            <span>завтраки</span>
-            <p class="main__text">Это государство в Юго-Восточной Азии, которое занимает территорию
-              нескольких тысяч вулканических островов. На них проживают сотни народов, которые говорят на разных языках.
-              Страна известна благодаря своим пляжам, вулканам, а также обитающим в джунглях комодским варанам, слонам,
-              орангутанам и тиграм.</p>
-            <a href=""><button class="main__button">Смотреть</button></a>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="main__body">
+          <h1 class="main__header">Авторские туры по Азии</h1>
+          <p class="main__signature">Открой для себя Азию</p>
+          <a href="#" class="main__button">Подробнее</a>
+        </div>
+        <div class="main__sentence">
+          <h2 class="main__head">Горящие туры<img src="./img/flame.png" alt="Картинка" class="main__icon"></h2>
+          <ul class="tours main__base">
+            <li class="main__form">
+              <div class="main__pic">
+                <img src="./img/river.jfif" alt="Тайланд" class="main__img">
+              </div>
+              <div class="main__content">
+                <h3 class="main__subtitle">Тайланд</h3>
+                <img src="./img/date.png" alt="Календарь" class="tours__icon">
+                <span class="tours__description">7- 12 ночей</span>
+                <img src="./img/meal.png" alt="Завтрак" class="tours__icon">
+                <span class="tours__description">Завтраки</span>
+                <p class="main__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                  значение систем массового участия.</p>
+                <a href="#" class="main__button main__button_white">Смотреть</a>
+              </div>
+            </li>
+            <li class="main__form">
+              <div class="main__pic">
+                <img src="./img/pool.jfif" alt="Тайланд" class="main__img">
+              </div>
+              <div class="main__content">
+                <h3 class="main__subtitle">Бали</h3>
+                <img src="./img/date.png" alt="Календарь" class="tours__icon">
+                <span class="tours__description">7- 12 ночей</span>
+                <img src="./img/meal.png" alt="Завтрак" class="tours__icon">
+                <span class="tours__description">Завтраки</span>
+                <p class="main__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                  значение систем массового участия.</p>
+                <a href="#" class="main__button main__button_white">Смотреть</a>
+              </div>
+            </li>
+            <li class="main__form">
+              <div class="main__pic">
+                <img src="./img/ocean.jfif" alt="Тайланд" class="main__img">
+              </div>
+              <div class="main__content">
+                <h3 class="main__subtitle">Индонезия</h3>
+                <img src="./img/date.png" alt="Календарь" class="tours__icon">
+                <span class="tours__description">7- 12 ночей</span>
+                <img src="./img/meal.png" alt="Завтрак" class="tours__icon">
+                <span class="tours__description">Завтраки</span>
+                <p class="main__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                  значение систем массового участия.</p>
+                <a href="#" class="main__button main__button_white">Смотреть</a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="news">
-      <!-- Раздел 3(Нововсти и акции)-->
-      <h2 class="news__head">Новости и акции</h2>
-      <ul class="news__form">
-        <li class="news__list">
-          <img src="" alt="Новость" class="news__img">
-          <span class="news__month">Декабрь</span>
-          <span class="news__year">2021</span>
-          <h3 class="news__header"> Дешевые путевки на Новый Год!</h3>
-          <span class="news__body"> Проведи новый год в Тайланде</span>
-        </li>
-        <li class="news__list">
-          <img src="" alt="Акция" class="news__img">
-          <span class="news__month">Декабрь</span>
-          <span class="news__year">2021</span>
-          <h3 class="news__header"> Акция для серфенгистов!</h3>
-          <span class="news__body"> В сезон больших волн скидка на путевку в Тайланд</span>
-        </li>
-      </ul>
-      <div class="news__page">
-        <div class="news__info">
-          Страница <span class="news__one">1</span> из
-          <span class="news__all">7</span>
-        </div>
-        <ul class="news__text">
-          <li class="news__current">
-            <a href="" class="news__value">1</a>
+      <div class="container">
+        <!-- Раздел 3(Нововсти и акции)-->
+        <h2 class="main__head main__head_news">Новости и акции</h2>
+        <ul class="news__form">
+          <li class="news__list">
+            <div class="news__pic">
+              <img src="./img/plain.jfif" alt="Новость" class="news__img">
+            </div>
+            <div class="news__content">
+              <span class="news__month">Декабрь</span>
+              <span class="news__year">2021</span>
+              <h3 class="news__header">Дешевые путевки на Новый Год!</h3>
+              <span class="news__body">Проведи новый год в Тайланде</span>
+            </div>
           </li>
-          <li class="news__current">
-            <a href="" class="news__value">2</a>
-          </li>
-          <li class="news__current">
-            <a href="" class="news__value">3</a>
-          </li>
-          <li class="news__current">
-            <a href="" class="news__value">4</a>
-          </li>
-          <li class="news__current">
-            <a href="" class="news__value">5</a>
-          </li>
-          <li class="news__current">
-            <a href="" class="news__value">6</a>
-          </li>
-          <li class="news__current">
-            <a href="" class="news__value">7</a>
+          <li class="news__list">
+            <div class="news__pic">
+              <img src="./img/surfer.jfif" alt="Акция" class="news__img">
+            </div>
+            <div class="news__content">
+              <span class="news__month">Декабрь</span>
+              <span class="news__year">2021</span>
+              <h3 class="news__header">Акция для серфенгистов!</h3>
+              <span class="news__body">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного
+                пути!</span>
+            </div>
           </li>
         </ul>
+        <div class="news__page">
+          <div class="news__info">Страница 1 из 7</div>
+          <ul class="news__text">
+            <li class="news__current">
+              <a href="" class="news__value">1</a>
+            </li>
+            <li class="news__current">
+              <a href="" class="news__value">2</a>
+            </li>
+            <li class="news__current">
+              <a href="" class="news__value">3</a>
+            </li>
+            <li class="news__current">
+              <a href="" class="news__value">4</a>
+            </li>
+            <li class="news__current">
+              <a href="" class="news__value">5</a>
+            </li>
+            <li class="news__current">
+              <a href="" class="news__value">6</a>
+            </li>
+            <li class="news__current">
+              <a href="" class="news__value">7</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="about">
       <!-- Раздел 4(Информация о нас)-->
-      <div class="about__body">
-        <img src="" alt="О нас" class="about__img">
-        <img src="" alt="О нас" class="about__img">
-        <ul class="about__form">
-          <li class="about__list">
-            <h2 class="about__head">О нас</h2>
-            <p class="about__text">Пассажирские самолёты осуществляют перевозки пассажиров и почты, совершая
-              регулярные (либо нерегулярные) рейсы.</p>
-            <a href=""><button class="about__button">Подробнее</button></a>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="about__body">
+          <div class="about__gates"><img src="./img/gates.jfif" alt="О нас" class="about__img"></div>
+          <div class="about__mountains"><img src="./img/mountains.jfif" alt="О нас" class="about__img"></div>
+          <ul class="about__form">
+            <li class="about__list">
+              <h2 class="about__head">О нас</h2>
+              <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
+                публичных выступлений в домашних условиях.</p>
+              <a href="#" class="main__button main">Подробнее</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <footer class="footer">
       <!-- Раздел 5(Нижний колонтитул)-->
-      <div class="footer__body">
-        <a href="/air-asia/index.html">
-          <img src="" alt="Логотип" class="footer__logo"></a>
-        <ul class="footer__menu">
-          <li class="footer__list">
-            <a href="/air-asia/index.html" target="_blank">Главная</a>
-          </li>
-          <li class="footer__list">
-            <a href="">Услуги</a>
-          </li>
-          <li class="footer__list">
-            <a href="">Отзывы</a>
-          </li>
-        </ul>
-        <div class="footer__social">
-          <ul class="footer__base">
-            <li class="footer__network">
-              <a href=""><img src="" alt="Иконка VK" class="footer__img"></a>
+      <div class="container container_footer">
+        <div class="footer__body">
+          <a class="logo" href="/air-asia/index.html">
+            <img src="./img/logo.png" alt="Логотип" class="head__logo"></a>
+          <ul class="head__menu">
+            <li class="head__list">
+              <a href="/air-asia/index.html" target="_blank">Главная</a>
             </li>
-            <li class="footer__network">
-              <a href=""><img src="" alt="Иконка Telegram" class="footer__img"></a>
+            <li class="head__list">
+              <a href="">Услуги</a>
             </li>
-            <li class="footer__network">
-              <a href=""><img src="" alt="Иконка Facebook" class="footer__img"></a>
-            </li>
-            <li class="footer__network">
-              <a href=""><img src="" alt="Иконка Instagram" class="footer__img"></a>
+            <li class="head__list">
+              <a href="">Отзывы</a>
             </li>
           </ul>
-          <div class="footer__telephone">
-            <p class="footer__text">Бесплатный звонок по России</p>
-            <a class="footer__number" href="#">8(800)700-30-30</a>
+          <div class="footer__social">
+            <ul class="footer__base">
+              <li class="footer__network">
+                <a href=""><img src="./img/social/telegram.png" alt="Иконка Telegram" class="footer__img"></a>
+              </li>
+              <li class="footer__network">
+                <a href=""><img src="./img/social/vk.png" alt="Иконка VK" class="footer__img"></a>
+              </li>
+              <li class="footer__network">
+                <a href=""><img src="./img/social/facebook.png" alt="Иконка Facebook" class="footer__img"></a>
+              </li>
+              <li class="footer__network">
+                <a href=""><img src="./img/social/instagram.png" alt="Иконка Instagram" class="footer__img"></a>
+              </li>
+            </ul>
+            <div class="contacts contacts_footer">
+              <div class="head__telephone head__telephone_footer">
+                <div class="head__graph head__graph_footer">
+                  <p class="head__base head__base_footer">Бесплатный звонок по России</p>
+                </div>
+                <a class="head__number head__number_footer" href="#">8 800 700 30 30</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
