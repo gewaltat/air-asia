@@ -5,35 +5,33 @@
 <head>
   <meta charset="UTF-8">
   <title>air-asia</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="./css/layout/foundation.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header class="head">
       <div class="container">
-        <a class="logo" href="/air-asia/index.html">
-          <img src="./img/logo.png" alt="Логотип" class="head__logo"></a>
-        <ul class="head__menu">
-          <li class="head__list"><a href="/air-asia/index.html" target="_blank">Главная</a></li>
-          <li class="head__list"><a href="">Услуги</a></li>
-          <li class="head__list"><a href="">Отзывы</a></li>
-        </ul>
-        <div class="contacts">
-          <div class="head__telephone">
-            <a class="head__number" href="#">8 800 700 30 30</a>
+        <div class="head__row">
+          <div class="logotype">
+            <a class="logo" href="/air-asia/index.html">
+              <img src="./img/logo.png" alt="Логотип" class="head__logo"></a>
           </div>
-          <div class="head__graph">
-            <p class="head__base">График работы</p>
-            <!-- <p class="head__time">Пн-Вс: 09:00 - 20:00</p>
-            <p class="head__time">Обед: 14:00 - 14:30</p> -->
+          <ul class="head__menu">
+            <li class="head__list"><a href="/air-asia/index.html" target="_blank">Главная</a></li>
+            <li class="head__list"><a href="/air-asia/services.html">Услуги</a></li>
+            <li class="head__list"><a href="">Отзывы</a></li>
+          </ul>
+          <div class="contacts">
+            <div class="head__telephone">
+              <a class="head__number" href="#">8 800 700 30 30</a>
+            </div>
+            <div class="head__graph">
+              <p class="head__base">График работы</p>
+            </div>
+
+
           </div>
-        </div>
-
-
-      </div>
-      <!-- Раздел 1(Шапка)-->
-
     </header>
     <div class="main">
       <!-- Раздел 2(Основной заголовок+описание туров)-->
@@ -113,7 +111,7 @@
           </li>
           <li class="news__list">
             <div class="news__pic">
-              <img src="./img/surfer.jfif" alt="Акция" class="news__img">
+              <img src="./img/surfer.jfif" alt="Акция" class="news__img news__img_blackout">
             </div>
             <div class="news__content">
               <span class="news__month">Декабрь</span>
@@ -174,14 +172,16 @@
       <!-- Раздел 5(Нижний колонтитул)-->
       <div class="container container_footer">
         <div class="footer__body">
-          <a class="logo" href="/air-asia/index.html">
-            <img src="./img/logo.png" alt="Логотип" class="head__logo"></a>
+          <div class="logotype">
+            <a class="logo" href="/air-asia/index.html">
+              <img src="./img/logo.png" alt="Логотип" class="head__logo"></a>
+          </div>
           <ul class="head__menu">
             <li class="head__list">
               <a href="/air-asia/index.html" target="_blank">Главная</a>
             </li>
             <li class="head__list">
-              <a href="">Услуги</a>
+              <a href="./services.html">Услуги</a>
             </li>
             <li class="head__list">
               <a href="">Отзывы</a>
@@ -202,13 +202,13 @@
                 <a href=""><img src="./img/social/instagram.png" alt="Иконка Instagram" class="footer__img"></a>
               </li>
             </ul>
-            <div class="contacts contacts_footer">
-              <div class="head__telephone head__telephone_footer">
-                <div class="head__graph head__graph_footer">
-                  <p class="head__base head__base_footer">Бесплатный звонок по России</p>
-                </div>
-                <a class="head__number head__number_footer" href="#">8 800 700 30 30</a>
+          </div>
+          <div class="contacts contacts_footer">
+            <div class="head__telephone head__telephone_footer">
+              <div class="head__graph head__graph_footer">
+                <p class="head__base head__base_footer">Бесплатный звонок по России</p>
               </div>
+              <a class="head__number head__number_footer" href="#">8 800 700 30 30</a>
             </div>
           </div>
         </div>

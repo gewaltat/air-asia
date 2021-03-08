@@ -1,0 +1,36 @@
+
+.title__row {
+  display: flex;
+}
+
+.title__header {
+  font-size: 72px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 98px;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: -243px;
+}
+
+.title__body {
+  margin-top: 104px;
+}
+
+.title__nav {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 19px;
+  color: #9A9A9A;
+}
+
+.title__nav_active {
+  font-weight:bold;
+}
+
+.title__division {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 19px;
+  color: #9A9A9A;
+}
