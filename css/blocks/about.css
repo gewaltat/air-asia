@@ -38,8 +38,7 @@
 .about__head {
   font-size: 36px;
   font-weight: bold;
-
-  margin: 0px 0px 37px 0px;
+  margin: 0px 0px 45px 0px;
 }
 
 .about__text {
@@ -52,14 +51,14 @@
   color: #060606;
 }
 
-.about__body .main__button:hover {
+.about__body .button:hover {
   cursor: pointer;
   text-decoration: none;
   text-decoration: underline;
   color: #fff;
 }
 
-.about__body .main__button:active {
+.about__body .button:active {
   background-color: #DA0100;
   box-shadow: 0 2px 4px 0 rgb(218, 1, 0, 0.3);
 }

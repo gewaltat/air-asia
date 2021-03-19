@@ -3,32 +3,41 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
-  <meta name="viewport" content="width=1180, initial-scale=1.0">
+  <title>air-asia/reviews</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/layout/foundation.css">
 </head>
 
 <body>
-  <div class="wrapper wrapper_services">
+  <div class="wrapper wrapper_elephant">
     <div class="content">
-      <header class="head">
+      <header class="head head_elephant">
         <div class="container">
           <div class="head__row">
-            <div class="logotype">
-              <a class="logo" href="./index.html">
-                <img src="./img/logo.png" alt="Логотип" class="head__logo"></a>
+            <div class="logotype logotype_big">
+              <a class="logo" href="./main.html">
+                <img src="./img/logo.png" alt="Логотип" class="head__logo head__logo_big"></a>
             </div>
             <ul class="head__menu">
-              <li class="head__list"><a href="./index.html" target="_blank">Главная</a></li>
+              <li class="head__list"><a href="./main.html">Главная</a></li>
               <li class="head__list"><a href="./services.html">Услуги</a></li>
-              <li class="head__list"><a href="">Отзывы</a></li>
+              <li class="head__list"><a href="./reviews.html">Отзывы</a></li>
             </ul>
             <div class="contacts">
               <div class="head__telephone">
                 <a class="head__number" href="#">8 800 700 30 30</a>
               </div>
               <div class="head__graph">
-                <p class="head__base">График работы</p>
+                <div class="dropdown">
+                  <p class="head__base">График работы</p>
+                  <div class="triangle"></div>
+                  <div class="dropdown__menu">
+                    <ul class="dropdown__list">
+                      <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                      <li class="dropdown__item">Обед: 14:00-14:30</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -62,7 +71,7 @@
                   <div class="review__userdata">
                     <a href="" class="review__user">Иван Петрович</a>
                     <ul class="review__tags">
-                      <li class="review__tag_link tag">Водопад Янг-бей</li>
+                      <li class="review__tag_link tag tag_green">Водопад Янг-бей</li>
                     </ul>
                   </div>
                 </div>
@@ -84,7 +93,7 @@
                   <div class="review__userdata">
                     <a href="" class="review__user">Лиза Сидорова</a>
                     <ul class="review__tags">
-                      <li class="review__tag_link tag">Водопад Янг-бей</li>
+                      <li class="review__tag_link tag tag_green">Тур по Тайланду</li>
                     </ul>
                   </div>
                 </div>
@@ -106,7 +115,7 @@
                   <div class="review__userdata">
                     <a href="" class="review__user">Екатерина Жмых</a>
                     <ul class="review__tags">
-                      <li class="review__tag_link tag">Водопад Янг-бей</li>
+                      <li class="review__tag_link tag tag_green">Тур на Остров обезьян</li>
                     </ul>
                   </div>
                 </div>
@@ -128,7 +137,7 @@
                   <div class="review__userdata">
                     <a href="" class="review__user">Антон Игоревич</a>
                     <ul class="review__tags">
-                      <li class="review__tag_link tag">Водопад Янг-бей</li>
+                      <li class="review__tag_link tag tag_green">Тур по Индонезии</li>
                     </ul>
                   </div>
                 </div>
@@ -242,8 +251,8 @@
                   </ul>
                 </div>
                 <div class="form__buttons">
-                  <button type="reset" class="main__button main__button_clear">Очистить</button>
-                  <button type="submit" class="main__button main__button_send">Отправить</button>
+                  <button type="reset" class="button button_clear">Очистить</button>
+                  <button type="submit" class="button button_send">Отправить</button>
                 </div>
               </form>
             </div>
@@ -255,19 +264,19 @@
       <!-- Раздел 5(Нижний колонтитул)-->
       <div class="container container_footer container_footer_other">
         <div class="footer__body footer__body_other">
-          <div class="logotype">
-            <a class="logo" href="/air-asia/index.html">
-              <img src="./img/logo.png" alt="Логотип" class="head__logo"></a>
+          <div class="logotype logotype_big">
+            <a class="logo" href="/air-asia/main.html">
+              <img src="./img/logo.png" alt="Логотип" class="head__logo head__logo_big"></a>
           </div>
           <ul class="head__menu">
             <li class="head__list">
-              <a href="/air-asia/index.html" target="_blank">Главная</a>
+              <a href="./main.html">Главная</a>
             </li>
             <li class="head__list">
-              <a href="">Услуги</a>
+              <a href="./services.html">Услуги</a>
             </li>
             <li class="head__list">
-              <a href="">Отзывы</a>
+              <a href="./reviews.html">Отзывы</a>
             </li>
           </ul>
           <div class="footer__social">

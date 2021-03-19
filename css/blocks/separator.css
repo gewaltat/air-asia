@@ -1,6 +1,7 @@
 .separator {
   background: url(../../img/couple.png) right 30% bottom no-repeat, url(../../img/middle-line.jfif) center no-repeat;
   min-height: 363px;
+  background-size: auto, 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

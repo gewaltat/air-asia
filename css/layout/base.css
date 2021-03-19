@@ -23,7 +23,7 @@ body {
 
 .wrapper {
   position: relative;
-  background: url('../../img/background.jfif') no-repeat top center, url('../../img/backgroundbotton.jfif') center bottom 230px no-repeat;
+  background: url('../../img/background.jfif') no-repeat top center, url('../../img/backgroundbotton.jfif') center bottom 140px no-repeat;
   background-color: #001821;
   display: flex;
   flex-direction: column;
@@ -31,9 +31,11 @@ body {
   overflow: hidden;
 }
 
-.wrapper_services {
-  background-color: #fff;
-  background: url(../../img/background-services.jfif) no-repeat top center;
+.wrapper_elephant {
+  background:none;
+  /* background-color: #fff; */
+  /* background: url(../../img/background-services.jfif) no-repeat top center;
+  background-size: 100%; */
 }
 
 .container {

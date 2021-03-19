@@ -20,12 +20,17 @@
 .form__input {
   flex: 1;
   margin-right: 30px;
-  border-radius: 4px;
-  border: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
   background: #fff;
   padding: 22px 30px;
   font-size: 18px;
   color: #1A1B1E;
+  outline: none;
+}
+
+.form__input:focus {
+  border: 1px solid #F5170E;
 }
 
 .form__input::placeholder {
@@ -38,6 +43,7 @@ color: #666666;
 
 .form__input_textarea {
   height: 232px;
+  resize: none;
 }
 
 .form__controls {
@@ -81,32 +87,33 @@ background: #B9EAE4;
   justify-content: flex-end;
 }
 
-.form__buttons .main__button {
+.form__buttons .button {
   margin-right: 12px;
   margin-bottom: 96px;
+  outline: none;
+  cursor: pointer;
 }
 
-.form__buttons .main__button:last-child {
+.form__buttons .button:last-child {
   margin-right: 0px;
 }
 
-.form__buttons .main__button:hover {
-  cursor: pointer;
+.form__buttons .button_send:hover {
   text-decoration: none;
   text-decoration: underline;
-  color: #fff;
 }
 
-.form__buttons .main__button_send:active {
+
+.form__buttons .button_send:active {
   background: transparent;
   border: none;
   background-color: #DA0100;
   box-shadow: 0 2px 4px 0 rgb(218, 1, 0, 0.3);
 }
- .main__button_clear {
+ .button_clear {
   background: #8E8E8E;
  } 
 
- .main__button_clear:hover {
+ .button_clear:hover {
  background-color: #2B2B2B;
  }

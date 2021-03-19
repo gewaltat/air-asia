@@ -21,7 +21,6 @@
 
 .footer__img:hover {
   filter: brightness(1.8);
-
 }
 
 .head__base_footer {
@@ -31,7 +30,7 @@
 }
 
 .container_footer {
-  padding-top: 47px;
+  padding-top: 8px;
   border-top: 1px solid rgb(255, 255, 255, 0.1);
 }
 

@@ -1,9 +1,22 @@
 .head {
   min-width: 100%;
+  min-height: 120px;
+  margin-bottom: 70px;
+}
+
+.head_elephant {
+  margin-bottom: 0px;
   min-height: 412px;
+  background: url(../../img/background-services.jfif) no-repeat top center;
+  background-size: cover;
 }
 
 .head__logo {
+  width: 85px;
+  height: 36px;
+}
+
+.head__logo_big {
   width: 98px;
   height: 42px;
 }
@@ -16,6 +29,10 @@
 }
 
 .logotype {
+  margin-right: 78px;
+}
+
+.logotype_big {
   margin-right: 66px;
 }
 
@@ -78,6 +95,62 @@ li {
 .head__number {
   text-decoration: none;
   color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown__menu {
+right: 0px;
+opacity: 1;
+}
+
+.triangle {
+  position: absolute;
+  right: -99999px;
+  border: 12px solid transparent;
+  width: 0px;
+  height: 0px;
+  border-bottom-color: #EDEDED;
+  border-top-width: 0px;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.dropdown:hover .triangle {
+  right: 30px;
+  opacity: 1;
+}
+
+.dropdown__menu {
+  position: absolute;
+  margin-top: 12px;
+  right: -99999px;
+  background: #EDEDED;
+  padding: 15px 19px;
+  width: 160px;
+  top: 100%;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 21px;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.dropdown__menu:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 20px;
+  left: 0px;
+  right: 0px;
+  top: -20px;
+}
+
+.dropdown__item:nth-child(1) {
+  font-weight: bold;
 }
 
 
