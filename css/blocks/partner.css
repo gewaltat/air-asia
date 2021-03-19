@@ -52,5 +52,6 @@ flex: 0 0 300px;
 }
 
 .partner__img:hover {
+  transition: .4s;
   filter:none;
 }

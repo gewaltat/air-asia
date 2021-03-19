@@ -57,6 +57,7 @@
 }
 
 .button_white:hover {
+  transition: .4s;
   background: #F5170E;
   color: #fff;
 }

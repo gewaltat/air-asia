@@ -34,7 +34,7 @@
 }
 
 .form__input::placeholder {
-color: #666666;
+  color: #666666;
 }
 
 .form__input:last-child {
@@ -74,8 +74,8 @@ color: #666666;
   cursor: pointer;
 }
 
-.controls__checkbox:checked ~ .controls__tag {
-background: #B9EAE4;
+.controls__checkbox:checked~.controls__tag {
+  background: #B9EAE4;
 }
 
 .controls__checkbox {
@@ -110,10 +110,12 @@ background: #B9EAE4;
   background-color: #DA0100;
   box-shadow: 0 2px 4px 0 rgb(218, 1, 0, 0.3);
 }
- .button_clear {
-  background: #8E8E8E;
- } 
 
- .button_clear:hover {
- background-color: #2B2B2B;
- }
+.button_clear {
+  background: #8E8E8E;
+}
+
+.button_clear:hover {
+  transition: .4s;
+  background-color: #2B2B2B;
+}
